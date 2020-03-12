@@ -19,7 +19,7 @@ setup(
     packages=find_packages('src'),
     package_dir={'': 'src'},
     scripts=['FlameGraph/flamegraph.pl'],
-    install_requires=['pyspark'],
+    # install_requires=['pyspark'],
     setup_requires=['pypandoc'],
     test_suite='test'
 )
